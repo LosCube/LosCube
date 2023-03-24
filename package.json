@@ -1,11 +1,11 @@
 {
-    "name": "Selvania-Launcher",
-    "preductname": "Selvania Launcher",
-    "version": "1.2.4",
-    "description": "Launcher Mincraft custom (crack, premium)",
+    "name": "LosCube-Launcher",
+    "preductname": "LosCube Launcher",
+    "version": "1.0.0",
+    "description": "Launcher de LosCube",
     "main": "src/app.js",
-    "author": "Luuxis",
-    "url": "http://craftdium.ml/launcherSelvania",
+    "author": "EnOx_S",
+    "url": "https://corbelled-battles.000webhostapp.com/",
     "engines": {
         "node": "^18.x.x"
     },
@@ -32,6 +32,6 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/luuxis/Selvania-Launcher.git"
+        "url": "git+https://github.com/LosCube/LosCube.git"
     }
 }
