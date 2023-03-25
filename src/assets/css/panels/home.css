@@ -255,6 +255,11 @@
     opacity: .4;
 }
 
+.discord-widget {
+    left: 0;
+    position: fixed;
+}
+
 .server:hover {
     transition: opacity 1s;
     opacity: 1;
