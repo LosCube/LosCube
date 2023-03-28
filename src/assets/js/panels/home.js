@@ -220,9 +220,13 @@ class Home {
         document.querySelector('.settings-btn').addEventListener('click', () => {
             changePanel('settings');
         });
-
+        
         document.querySelector('.discord-btn').addEventListener('click', () => {
             window.open('https://discord.gg/Myh8U4nmHz');
+        });
+
+        document.querySelector('.tiktok-btn').addEventListener('click', () => {
+            window.open('https://www.tiktok.com/@loscube.off?lang=fr');
         });
     }
 
