@@ -22,10 +22,6 @@ class Login {
         console.log(`Initializing mojang Panel...`)
         console.log(`Initializing offline Panel...`)
         this.loginOffline();
-        document.querySelector('.cancel-login').addEventListener("click", () => {
-            document.querySelector(".cancel-login").style.display = "none";
-            changePanel("settings");
-        })
     }
 
     async loginOffline() {
