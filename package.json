@@ -5,7 +5,7 @@
     "description": "Launcher de LosCube",
     "main": "src/app.js",
     "author": "EnOx_S",
-    "url": "https://corbelled-battles.000webhostapp.com/launcher",
+    "url": "https://corbelled-battles.000webhostapp.com/",
     "engines": {
         "node": "^18.x.x"
     },
