@@ -26,6 +26,7 @@ class Login {
 
     async loginOffline() {
         let mailInput = document.querySelector('.Mail')
+        let passwordInput = document.querySelector('.Password')
         let infoLogin = document.querySelector('.info-login')
         let loginBtn = document.querySelector(".login-btn")
         let mojangBtn = document.querySelector('.mojang')
@@ -34,6 +35,7 @@ class Login {
         document.querySelector(".login-card").style.display = "none";
         document.querySelector(".login-card-mojang").style.display = "block";
 
+        
         loginBtn.addEventListener("click", async () => {
             loginBtn.disabled = true;
             mailInput.disabled = true;
@@ -47,8 +49,9 @@ class Login {
                 return
             }
 
-            let account_connect = await Mojang.login(mailInput.value, "");
+            
 
+            let account_connect = await Mojang.login(mailInput.value, "");
 
             let account = {
                 access_token: account_connect.access_token,

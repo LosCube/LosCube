@@ -19,6 +19,7 @@
         "ext": "js,html,css"
     },
     "dependencies": {
+        "azuriom-auth": "^1.0.1",
         "electron-updater": "^5.0.1",
         "minecraft-java-core": "^3.1.1",
         "node-fetch": "^2.6.7"
